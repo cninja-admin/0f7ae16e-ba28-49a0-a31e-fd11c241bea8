@@ -1,0 +1,54 @@
+@media screen and (max-width: 619px){
+	.favs{
+		display: none !important;
+	}
+	.search-bar{
+		width: 30%;
+	}
+	.carousel{
+		width: 98%;
+	}
+	.carousel img{
+		    height: 15vw;
+            width: 20vw;
+           
+	}
+	.playing-song-content{
+		width: 15%;
+		justify-content: space-between;
+	}
+	.footer>.playing-song-content>#song-description{
+		display: none;
+	}
+	.sec-2{
+		display: none;
+	}
+	.extra-icons{
+		width: 35%;
+	}	
+}
+@media screen and (max-width: 554px){
+	.favs{
+		display: none !important;
+	}
+	
+	.sec-1{
+		width: 88%;
+	}
+	.latest-releases-english-content-sec>div{
+		width: min-content;
+	}
+	.latest-releases-hindi-content-sec>div{
+		width: min-content;
+	}
+	.footer{
+		padding: 0px 1%;
+	}
+	.music-player .icons{
+    	justify-content: space-around;
+    	width: 48%;
+    }
+	.extra-icons>div{
+		margin: 0% 0%;
+	}
+}
